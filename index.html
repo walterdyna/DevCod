@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearningSphere</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LearningSphere</h1>
+    </header>
+
+    <div class="container">
+        <h2>Cursos Disponíveis</h2>
+        <ul class="course-list" id="courseList">
+            <li class="course-item" data-course="1">Curso 1: Introdução ao HTML</li>
+            <li class="course-item" data-course="2">Curso 2: Fundamentos do CSS</li>
+            <li class="course-item" data-course="3">Curso 3: Fundamentos de JavaScript</li>
+        </ul>
+
+        <div class="quiz" id="quizContainer">
+            <h2 id="quizTitle"></h2>
+            <div class="quiz-question" id="quizQuestion"></div>
+            <button id="nextButton">Próxima Pergunta</button>
+            <div class="result" id="quizResult"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LearningSphere | DevCod</p>
+    </footer>
+
+    <div class="certificate-modal" id="certificateModal">
+        <div class="certificate-container">
+            <h1>Certificado DevCod</h1>
+            <p id="certificateDetails"></p>
+            <button id="closeCertificate">Fechar Certificado</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
